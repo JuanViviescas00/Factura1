@@ -1,4 +1,4 @@
- .barra {
+.barra {
   position: relative;
 }
 
@@ -90,10 +90,10 @@ h3.f1 {
 }
 
 .logo {
-  left: 30px;
+  left: 10%;
   position: relative;
   top: 10px;
-  width: 100px;
+  width: 130px;
 }
 
 .line1 {
@@ -107,6 +107,8 @@ h3.f1 {
 }
 
 .logo1 {
+  position: relative;
+  bottom: 15%;
   font-size: 20px;
   margin: auto;
   margin-bottom: 20px;
@@ -198,12 +200,11 @@ thead {
   width: 60%;
 }
 
-/* Media Queries (already ordered from largest to smallest) */
 @media (max-width: 1400px) {
   .texto1 {
     font-size: 14px;
   }
-
+  
   .zero {
     width: 80%;
   }
@@ -213,6 +214,11 @@ thead {
   .texto1 {
     font-size: 12px;
   }
+  .logo{
+    top:0;
+    width: 120px;
+  }
+
 }
 
 @media (max-width: 1050px) {
@@ -319,6 +325,9 @@ thead {
 
 @media (max-width: 360px) {
   h1.titulo {
-    font-size: 40px
+    font-size: 30px
+  }
+  span.titulo{
+    font-size: 15px;
   }
 }
