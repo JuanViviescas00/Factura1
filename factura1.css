@@ -164,6 +164,12 @@ table {
   border-spacing: 40px 20px;
 }
 
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 thead {
   font-size: 20px;
   text-align: center;
@@ -331,3 +337,4 @@ thead {
     font-size: 15px;
   }
 }
+
