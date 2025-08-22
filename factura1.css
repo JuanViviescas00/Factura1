@@ -336,5 +336,13 @@ thead {
   span.titulo{
     font-size: 15px;
   }
+
+ .barra1 span::after {
+    width: 75%;
+  }
+  
+
+
 }
+
 
