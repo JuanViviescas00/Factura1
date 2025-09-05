@@ -394,7 +394,9 @@ thead {
 }
 
 @media (max-width: 810px) {
-  
+  body{
+    width:100%;
+  }
   .one{
     grid-template-columns: 1fr;
     height: 200px !important;
@@ -686,4 +688,5 @@ position: relative;
     width: 30%;
     right: 4%;
   }
+
 }
