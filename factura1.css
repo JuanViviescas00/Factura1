@@ -2,7 +2,7 @@ body{
   display: flex;
   justify-content: center;
   font-family: sans-serif;
-  margin: auto;
+  margin: 40px auto;
 }
 
 .barra {
@@ -143,7 +143,6 @@ h3.f1 {
 .logo1 {
   display: flex;
   flex-direction: column;
-  transform: scale(1.4);
   margin: auto;
   margin-left: 10%;  
   letter-spacing: 1px;
@@ -350,6 +349,10 @@ thead {
     width: 90%;
   }
 
+.t2{
+  border-spacing: 50px 20px;
+}
+
   .barra span::after {
     width: 55%;
     right: 3%;
@@ -394,9 +397,11 @@ thead {
 }
 
 @media (max-width: 810px) {
+  
   body{
-    width:100%;
+    width: 100%;
   }
+
   .one{
     grid-template-columns: 1fr;
     height: 200px !important;
@@ -561,9 +566,9 @@ position: relative;
       margin-right: 2%;
     }
 
-    .s2{
+    .s2 {
       top:20%;
-      transform: scaleX(1.3);
+     
     }
 
     .payment{
@@ -572,7 +577,6 @@ position: relative;
     }
     .line1{
       position: relative;
-      right: 10%;
       margin-right: 0;
       justify-content: space-between;
     }
@@ -689,4 +693,18 @@ position: relative;
     right: 4%;
   }
 
+  .text1{
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+
+}
+
+  .t2{
+    border-spacing: 0 50px ;
+  }
+
+  .three table{
+    border-spacing: 50px 20px;
+  }
 }
