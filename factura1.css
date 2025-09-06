@@ -200,7 +200,7 @@ h3.f1 {
 
 table {
   border-collapse: separate;
-  border-spacing: 50px 20px;
+  border-spacing: 30px 20px;
 }
 
 thead {
@@ -707,4 +707,5 @@ position: relative;
   .three table{
     border-spacing: 50px 20px;
   }
+
 }
